@@ -1,0 +1,16 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# PyCharm / IDE Files
+.idea/
+.vscode/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Local Application Data
+arena_history.json
