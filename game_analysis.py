@@ -63,6 +63,9 @@ def analyze_match(move_history):
         # Pick one of the optimal cells to highlight (if they didn't pick one)
         optimal_highlight = best_moves[0] if played_cell not in best_moves else None
 
+        # Apply the move to progress the game state
+        board[played_cell] = player
+
         analysis_report.append({
             "step": step_num,
             "player": player,
@@ -71,8 +74,5 @@ def analyze_match(move_history):
             "feedback": feedback,
             "board_state": list(board),
         })
-
-        # Apply the move to progress the game state
-        board[played_cell] = player
 
     return analysis_report
