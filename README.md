@@ -2,12 +2,6 @@
 
 GridMind is a professional-grade Tic-Tac-Toe application built entirely in Python. It features a modern flat-design GUI, persistent lifetime statistics, an unbeatable Minimax AI, and an advanced post-game analysis engine that evaluates your move decisions in hindsight.
 
-## 📸 Screenshots
-*(Add images here by replacing the links)*
-![Main Menu](link-to-menu-image)
-![Gameplay](link-to-gameplay-image)
-![Game Review Analysis](link-to-review-image)
-
 ## 🚀 Installation and Setup
 
 GridMind runs on pure Python and requires no external third-party libraries.
